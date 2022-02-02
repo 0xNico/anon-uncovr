@@ -1,0 +1,66 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #72e9b2 #151515;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #151515;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #72e9b2;
+    border-radius: 10px;
+    border: 4px solid #151515;
+    height: 5px;
+  }
+
+
+@font-face {
+  font-family: '55';
+  src:url('55.ttf.woff') format('woff'),
+      url('55.ttf.svg#55') format('svg'),
+      url('55.ttf.eot'),
+      url('55.ttf.eot?#iefix') format('embedded-opentype'); 
+      font-weight: normal;
+      font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: '55';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white !important;
+}
+
+.sc-bdvvtL {
+  margin-top: 1.5em;
+}
+
+input {
+  color: white !important;
+  font-family: '55';
+  font-size: 1.25em;
+}
+
+h2 {
+  font-size: 1.25em !important;
+  color: #72e9b2 !important;
+}
+
+span {
+  font-size: 1.15em !important;
+}
+
+p {
+  font-size: 1em !important;
+}
+

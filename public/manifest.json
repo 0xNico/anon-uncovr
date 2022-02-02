@@ -1,0 +1,15 @@
+{
+  "short_name": "Nifty Information",
+  "name": "Nifty Information",
+  "icons": [
+    {
+      "src": "solana.png",
+      "type": "image/png",
+      "sizes": "316x316"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
